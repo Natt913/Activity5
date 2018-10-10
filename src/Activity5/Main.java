@@ -12,6 +12,11 @@ public class Main {
 
     Date today = new Date();
 
+    Feature[] f = {new InteriorFeature("AM/FM Radio"),
+                    new ExteriorFeature("Wood Panels"),
+                    new InteriorFeature("Air Conditioning"),
+                    new ExteriorFeature("Moonroof")};
+
     VehicleChassis myChassis = new VehicleChassis();
     System.out.println(myChassis.toString());
 
@@ -43,5 +48,13 @@ public class Main {
 
     ExteriorFeature ef2 = new ExteriorFeature("Fog Lamps");
     System.out.println(ef2.toString());
+
+    Vehicle v1 = new Vehicle();
+    System.out.println(v1.toString());
+
+    Vehicle v2 = new Vehicle(today, "Honda", "Honda",
+        "Prelude", vf2, "N/A", "2WD: Two-Wheel Drive", me2);
+    System.out.println(v2.toString());
+
   }
 }
