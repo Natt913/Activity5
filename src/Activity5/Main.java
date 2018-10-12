@@ -18,43 +18,43 @@ public class Main {
                     new ExteriorFeature("Moonroof")};
 
     VehicleChassis myChassis = new VehicleChassis();
-    System.out.println(myChassis.toString());
+    System.out.println(myChassis);
 
     VehicleChassis myChassis2 = new VehicleChassis("Car");
-    System.out.println(myChassis2.toString());
+    System.out.println(myChassis2);
 
     VehicleFrame vf1 = new VehicleFrame();
-    System.out.println(vf1.toString());
+    System.out.println(vf1);
 
-    VehicleFrame vf2 = new VehicleFrame("Coupe");
-    System.out.println(vf2.toString());
+    VehicleFrame vf2 = new VehicleFrame("Ladder Frame");
+    System.out.println(vf2);
 
     ManufacturedEngine me1 = new ManufacturedEngine();
-    System.out.println(me1.toString());
+    System.out.println(me1);
 
     ManufacturedEngine me2 = new ManufacturedEngine("Honda", today,
         "H-Series", "H23A1", 4,
         "88 AKI", "2WD: Two-Wheel Drive");
-    System.out.println(me2.toString());
+    System.out.println(me2);
 
     InteriorFeature if1 = new InteriorFeature();
-    System.out.println(if1.toString());
+    System.out.println(if1);
 
     InteriorFeature if2 = new InteriorFeature("Climate Control");
-    System.out.println(if2.toString());
+    System.out.println(if2);
 
     ExteriorFeature ef1 = new ExteriorFeature();
-    System.out.println(ef1.toString());
+    System.out.println(ef1);
 
     ExteriorFeature ef2 = new ExteriorFeature("Fog Lamps");
-    System.out.println(ef2.toString());
+    System.out.println(ef2);
 
     Vehicle v1 = new Vehicle();
-    System.out.println(v1.toString());
+    System.out.println(v1);
 
     Vehicle v2 = new Vehicle(today, "Honda", "Honda",
         "Prelude", vf2, "N/A", "2WD: Two-Wheel Drive", me2);
-    System.out.println(v2.toString());
+    System.out.println(v2);
 
   }
 }

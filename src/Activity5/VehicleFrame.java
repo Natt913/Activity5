@@ -5,7 +5,7 @@ public class VehicleFrame implements Chassis {
   private String vehicleFrameType;
 
   public VehicleFrame() {
-    this.vehicleFrameType = "Unibody";
+    vehicleFrameType = "Unibody";
   }
 
   public VehicleFrame(String vehicleFrameType) {
