@@ -31,8 +31,7 @@ public class Car extends Vehicle {
   public String getExteriorFeatures() {
     for (int i = 0; i < feature.length; i++) {
       if (feature[i] instanceof ExteriorFeature) {
-        System.out.print("Exterior Feature      : " + feature[i]);
-
+        System.out.print(feature[i]);
       }
     }
     return "";
@@ -41,7 +40,7 @@ public class Car extends Vehicle {
   public String getInteriorFeatures() {
     for (int i = 0; i < feature.length; i++) {
       if (feature[i] instanceof InteriorFeature) {
-        System.out.print("Interior Feature      : " + feature[i]);
+        System.out.print(feature[i]);
       }
     }
     return "";
@@ -51,7 +50,8 @@ public class Car extends Vehicle {
 
     System.out.println(super.toString());
     System.out.println("Features:");
-    return getExteriorFeatures() + getInteriorFeatures();
+    return getInteriorFeatures() + getExteriorFeatures() +
+        "Car Axle              : " + carAxle + "\n";
 
   }
 

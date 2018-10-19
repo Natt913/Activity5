@@ -22,7 +22,9 @@ public InteriorFeature(String interiorFeature) {
   }
 
   public String toString() {
-  return "Interior " + "[" + interiorFeature + "]" + "\n";
+  return "Interior" + " [" + interiorFeature + "]" + "\n";
   }
+
+  @
 
 }

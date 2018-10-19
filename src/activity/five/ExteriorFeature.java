@@ -21,6 +21,6 @@ public class ExteriorFeature implements Feature {
   }
 
   public String toString() {
-    return "Exterior " + "[" + exteriorFeature + "]" + "\n";
+    return "Exterior" + " [" + exteriorFeature + "]" + "\n";
   }
 }
