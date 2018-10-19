@@ -1,4 +1,4 @@
-package Activity5;
+package activity.five;
 
 public class ExteriorFeature implements Feature {
 

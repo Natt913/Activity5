@@ -1,4 +1,4 @@
-package Activity5;
+package activity.five;
 
 import java.util.Date;
 
@@ -114,12 +114,12 @@ public class Vehicle implements Engine, Chassis {
 
 
   public String toString() {
-    return "Manufacturer Name : " + vehicleManufacturer + "\n"
-        + "Manufactured Date : " + vehicleManufacturedDate + "\n"
-        + "Vehicle Make : " + vehicleMake + "\n"
-        + "Vehicle Model : " + vehicleModel + "\n"
-        + "Vehicle Type : " + vehicleType + "\n"
-        + vehicleEngine.toString() + "\n";
+    return "Manufacturer Name     : " + vehicleManufacturer + "\n"
+        + "Manufactured Date     : " + vehicleManufacturedDate + "\n"
+        + "Vehicle Make          : " + vehicleMake + "\n"
+        + "Vehicle Model         : " + vehicleModel + "\n"
+        + "Vehicle Type          : " + vehicleType + "\n"
+        + vehicleEngine.toString();
   }
   
 }

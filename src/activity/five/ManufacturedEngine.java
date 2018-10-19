@@ -1,4 +1,4 @@
-package Activity5;
+package activity.five;
 
 import java.util.Date;
 
@@ -37,7 +37,7 @@ public class ManufacturedEngine implements Engine {
    * @param driveTrain Is set to the drive train.
    */
   public ManufacturedEngine(String engineManufacturer, Date engineManufacturedDate,
-      String engineMake, String engineModel, int engineCylinders, String engineType,
+      String engineMake, String engineModel, String engineType, int engineCylinders,
       String driveTrain) {
     this.engineManufacturer = engineManufacturer;
     this.engineManufacturedDate = engineManufacturedDate;
@@ -115,7 +115,7 @@ public class ManufacturedEngine implements Engine {
         +  "Engine Model          : " + engineModel + "\n"
         +  "Engine Type           : " + engineType + "\n"
         +  "Engine Cylinders      : " + engineCylinders + "\n"
-        +  "Drive Train           : " + driveTrain + "\n";
+        +  "Drive Train           : " + driveTrain;
   }
 
 

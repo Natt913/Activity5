@@ -1,4 +1,4 @@
-package Activity5;
+package activity.five;
 
 public class VehicleChassis implements Chassis {
   // Create a String named chassisName instance variable.

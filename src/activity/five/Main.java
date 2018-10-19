@@ -1,4 +1,4 @@
-package Activity5;
+package activity.five;
 
 import java.util.Date;
 
@@ -17,6 +17,10 @@ public class Main {
                     new InteriorFeature("Air Conditioning"),
                     new ExteriorFeature("Moonroof")};
 
+    for(int i = 0; i < 4; i++) {
+      System.out.println(f[i].toString());
+    }
+
     VehicleChassis myChassis = new VehicleChassis();
     System.out.println(myChassis);
 
@@ -33,8 +37,8 @@ public class Main {
     System.out.println(me1);
 
     ManufacturedEngine me2 = new ManufacturedEngine("Honda", today,
-        "H-Series", "H23A1", 4,
-        "88 AKI", "2WD: Two-Wheel Drive");
+        "H-Series", "H23A1",
+        "88 AKI", 4, "2WD: Two-Wheel Drive");
     System.out.println(me2);
 
     InteriorFeature if1 = new InteriorFeature();
@@ -55,6 +59,14 @@ public class Main {
     Vehicle v2 = new Vehicle(today, "Honda", "Honda",
         "Prelude", vf2, "N/A", "2WD: Two-Wheel Drive", me2);
     System.out.println(v2);
+
+    System.out.println("\n" + "\n" + "\n");
+    Car c1 = new Car(today, "Honda", "Honda",
+        "Prelude", vf2, "N/A", "2WD: Two-Wheel Drive", me2, f, 2);
+    System.out.println(c1);
+
+    Car c2 = new Car();
+    System.out.println(c2);
 
   }
 }
